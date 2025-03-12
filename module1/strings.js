@@ -33,7 +33,7 @@ console.log(a.replace("ka","22"));
 
 console.log(a.charAt(2));
 
-// SEARCHING PF A STRING
+// SEARCHING FOR A STRING
 let str3 = "Widget with id";
 console.log(str3.indexOf("Widget"));
 console.log(str3.indexOf("widget"));
