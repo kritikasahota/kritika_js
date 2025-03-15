@@ -1,4 +1,3 @@
-// FOR LOOP
 for(let count = 0; count <= 5; count++){
     console.log("HELLO");
 }
@@ -17,16 +16,9 @@ for(let a = 1; a <= 5; a++){
     console.log("a = ", a);
 }
 
-// WHILE LOOP
-let b = 0;
-while(b <= 5){
-    console.log("b = ",b);
-    b++;
-}
-
 // TASK 1 -- print even numbers upto 100
 for( let a = 0; a <= 100; a++) {
-   if(a % 2 == 0) {
-     console.log(a);
-    }
-}
+    if(a % 2 == 0) {
+      console.log(a);
+     }
+ }
