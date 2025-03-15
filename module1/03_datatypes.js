@@ -1,35 +1,35 @@
-// STRING
+ /* STRINGS */
 let name = "kritika";
 console.log(name);
 console.log(typeof name);
 
-// NUMBERS
+/* NUMBERS */
 let n = 123;
 n = 12.345;
 console.log(n);
 console.log(typeof n);
 
-// BOOLEAN
+/* BOOLEAN */
 let condition = true;
 console.log(condition);
 console.log(typeof condition);
 
-// BigInt
+/* BigInt */
 const bigInt = 1234567890123456789012345678901234567890n; //the "n" at the end means it's a BigInt
 console.log(bigInt);
 console.log(typeof (bigInt));
 
-// NULL
+/* NULL */
 let value = null;
 console.log(value);
 console.log(typeof value);
 
-// UNDEFINED
+/* UNDEFINED */
 let age;
 console.log(age); // shows "undefined"
 console.log(typeof value);
 
-// OBJECT
+/* OBJECT */
 const student = {       // creating an object (use const always)
     fullName: "rahul",
     age: 20,
@@ -42,7 +42,7 @@ console.log(typeof student);
 console.log(student["fullName"]); // accessing keys 1st method
 console.log(student.age); //2nd method
 
-// task 1 
+/* task 1 */
 const product = {
     productName: "Ball Pen",
     color: "Black",
