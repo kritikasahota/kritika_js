@@ -20,3 +20,11 @@ console.log(fruits[2]);   /*accesing characters*/
 
 console.log( fruits[fruits.length-1] );       /*accessing last element*/
 console.log(fruits.at(-1));
+
+/* Multidimensional array */
+let matrix = [ 
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+];
+console.log(matrix[0][1]);

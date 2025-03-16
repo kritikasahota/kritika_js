@@ -23,3 +23,32 @@ let arr = [1, 2, 3];  /* TOSTRING */
 console.log( arr ); // 1,2,3
 console.log( String(arr) ); 
 
+/* SLICE METHOD */
+let marvelHeroes = [ "thor", "spiderman", "ironman", "antman", "Dr.Strange"];
+console.log(marvelHeroes.slice(1,3));
+
+/* SPLICE METHOD */
+let arr1 = [1, 2, 3, 4, 5, 6, 7];
+arr1.splice(2, 2, 101, 102);
+//arr1.splice(2,0,101); //add
+//arr1.splice(2,1);   // delete
+//arr1.splice(2,3,104);  // replace
+console.log(arr1); 
+
+/* CONCATENATION */
+let arr2 = [1, 2];
+console.log( arr2.concat([3, 4]) ); // create an array from: arr2 and [3,4]
+console.log( arr2.concat([3, 4], [5, 6]) ); // create an array from: arr2 and [3,4] and [5,6]
+console.log( arr2.concat([3, 4], 5, 6) ); // create an array from: arr2 and [3,4], then add values 5 and 6
+
+/* TASK 1 */
+let companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+//console.log(companies);
+//console.log(companies.shift());
+
+//companies.splice(2,1,"Ola");
+//companies[2]="Ola";
+//console.log(companies);
+
+companies.push("Amazon");
+console.log(companies);
