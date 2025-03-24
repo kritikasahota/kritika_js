@@ -23,9 +23,11 @@ for ( let i = 0; i <= 100; i++){
 
 
 /* WAP to calculate factorial of 5 */
-
-
-//console.log(`Factorial of 5 is ${factorial}`);
+let num = 5;
+let fact = 1;
+for(let i = num; i > 0; i--){
+    fact = fact * i;
+}console.log(fact);
 
 
 /* WAP to swap two numbers in js */
