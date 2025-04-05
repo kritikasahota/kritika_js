@@ -27,3 +27,10 @@ function showMessage3(text){
     console.log(text);
 }
 showMessage();
+
+/* RETURNING A VALUE */
+function sum(a, b){
+    return a + b;
+}
+let result = sum(1, 2);
+console.log(result);
