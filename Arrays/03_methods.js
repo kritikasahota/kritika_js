@@ -52,3 +52,28 @@ let companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
 
 companies.push("Amazon");
 console.log(companies);
+
+/* MAP */
+let nums = [67, 52, 39];
+nums.map((val) => {
+    console.log(val);
+});
+
+let newArr = nums.map((val) => {
+    return val * val;
+});
+console.log(newArr);
+
+/* FILTER */
+let nums_ = [1, 2, 3, 4, 5, 6, 7];
+let evenArr = nums_.filter((val) => {
+    return val % 2 == 0;
+});
+console.log(evenArr);
+
+/* REDUCE */
+let num_1 = [1, 2, 3, 4];
+const output = arr.reduce((res, curr) => {
+    return res + curr;
+});
+console.log( output);

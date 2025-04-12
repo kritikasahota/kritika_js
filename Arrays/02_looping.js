@@ -10,6 +10,9 @@ for(let el of heroes){
     console.log(el);
 }
 
+/* FOR EACH LOOP */
+
+
 /* TASK 1 */
 let arr = [85, 97, 44, 37, 76, 60];
 
