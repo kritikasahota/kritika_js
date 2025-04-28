@@ -12,6 +12,13 @@ button{
     color: white;
 }
 
+#box1{
+    height:100px;
+    width:100px;
+    background-color: rgb(61, 61, 177);
+    color:white;
+    border:2px solid black;
+}
 /* style using id */
 #heading{
     color:blueviolet;
