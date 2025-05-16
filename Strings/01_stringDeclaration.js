@@ -13,4 +13,8 @@ let item = "pen" ;
 let price = 10;
 console.log(`The cost of ${item} is ${price} rupees`)
 
-//IMMUTABLE
+// IMMUTABLE
+let str3 = 'Hi';
+
+str3[0] = 'h'; // error
+console.log( str3[0] ); // doesn't work

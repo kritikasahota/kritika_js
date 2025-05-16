@@ -49,10 +49,10 @@ let capitalLetter = (string) => {
 capitalLetter("kritika");
 
 //Write a function that trims whitespace from both ends of a string.
-let str1 = (string)=> {
+let str = (string)=> {
     console.log(string.trim());
 };
-str1(" hello world ");
+str(" hello world ");
 
 //Write a function that capitalizes the first letter of each word in a sentence.
 function capitalizeLetter(sentence) {
@@ -72,15 +72,15 @@ let numberOfCharacter = (string) => {
 numberOfCharacter(" h e l l o ");
 
 //remove all spaces with hyphens.
-let str2= (string) => {
+let str1= (string) => {
     let updated = string.replace(/ /g, "-");
     console.log(updated);
     
 }
-str2("h e l l o");
+str1("h e l l o");
 
 //Check if a string includes a given word.
-let str = "hello world from javascript";
+let str2 = "hello world from javascript";
 if(str.indexOf("from")){
     console.log("we found it!");
 }else{
@@ -88,23 +88,53 @@ if(str.indexOf("from")){
 }
 
 //Count the number of vowels in a string
+let str3 = "Tanishka";
+let findVowels = str3.match(/[aeiou]/gi);
+console.log("vowels found = ",findVowels);
 
 // Check if a string starts with a specific substring.
+let str4 = "Hello";
+if(str4.startsWith("h")){
+    console.log("yes");
+}else{
+    console.log("no");
+}
 
 // Check if a string ends with a specific substring.
+let str5 = "Hello";
+if(str5.endsWith("o")){
+    console.log("yes");
+}else{
+    console.log("no");
+}
 
 // Get the character at a specific index in a string.
+let str6 ="Kritika";
+let character = str6.charAt(2);
+console.log(character);
 
-// Concatenate two strings.
+//Concatenate two strings.
+console.log("kritika" + " sahota");
 
 // Find the index of the first occurrence of a character.
+ let str7 = "raman" ;
+console.log(str7.indexOf("a"));
 
-// Slice the first 5 characters from a string.
-
-// 🟡 Intermediate-Level JavaScript String Questions
-// Capitalize the first letter of each word in a sentence.
+// Slice the first 3 characters from a string.
+console.log(str7.slice(0,3));
 
 // Check if a string is a palindrome.
+let string2 = "madam";
+let reverse = "";
+for(let char of string2){
+    reverse = char + reverse;
+}
+console.log("reverse: ", reverse)
+if(string2 === reverse){
+        console.log("it's a palindrome");
+    }else{
+        console.log("it's not a palindrome");
+    }
 
 // Find the longest word in a sentence.
 
@@ -126,7 +156,6 @@ if(str.indexOf("from")){
 
 // Validate whether a string is a proper email format.
 
-// Reverse the order of words in a sentence.
 
 // Convert a sentence into a URL-friendly slug (e.g., "Hello World" → "hello-world").
 
