@@ -4,7 +4,7 @@ switch(true ){
         console.log("A");
         break;
 
-        case (grade>=70 && grade<=89):
+        case (grade>=70 && grade<=79):
             console.log("B");
             break;
 

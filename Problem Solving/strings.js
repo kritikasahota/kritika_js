@@ -125,6 +125,7 @@ console.log(str7.slice(0,3));
 
 // Check if a string is a palindrome.
 let string2 = "madam";
+
 let reverse = "";
 for(let char of string2){
     reverse = char + reverse;
