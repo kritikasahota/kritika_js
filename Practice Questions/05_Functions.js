@@ -35,13 +35,13 @@ function countDown(num) {
     for(let i= num; i >= 0; i--){
         console.log(i);
     }
-} 
+}  
 countDown(10);
 
 
 //Create a function that takes another function and a value, applies the function to the value, and returns the result.
 function square(num){
-    console.log(`square of ${num} is ${ num *num}`);
+    console.log(`square of ${num} is ${ num * num}`);
 }
 function calculator(num, squareCallback) {
     squareCallback(num);
